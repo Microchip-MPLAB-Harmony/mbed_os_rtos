@@ -1,12 +1,12 @@
 ﻿---
-title: MBED OS RTOS templates and configuration files for Harmony 3
+title: Harmony 3 MBED OS RTOS configurations and template files
 nav_order: 1
 has_children: true
 has_toc: false
 ---
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# MBED OS RTOS templates and configuration files for Harmony 3
+# Harmony 3 MBED OS RTOS configurations and template files
 
 MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices.  Refer to the following links for more information.
 
@@ -16,11 +16,10 @@ MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded
 - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
 - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
-This repository contains MPLAB Harmony configurations and templates files for Mbed OS RTOS. Mbed OS RTOS source code is not included in this repository and must be downloaded separately.
+This repository contains MPLAB Harmony 3 MBED OS RTOS configurations and template files. Mbed OS RTOS source code is not included in this repository and must be downloaded separately.
 Refer to the following links for release notes, training materials, and license
 information and source code
  - [Release Notes](./release_notes.md)
- - [MPLAB Harmony 3 Core Wiki](https://github.com/Microchip-MPLAB-Harmony/core/wiki)
  - [MPLAB® Harmony License](mplab_harmony_license.md)
 
 # Contents Summary
@@ -28,8 +27,32 @@ information and source code
 | Folder    | Description                                                |
 |-----------|------------------------------------------------------------|
 | config    | Mbed OS RTOS module configuration scripts                  |
-| docs      | Mbed OS RTOS help documentation                            |
 | templates | Mbed OS RTOS and system file templates                     |
+| docs      | Contains documentation in html format for offline viewing (to be used only after cloning this repository onto a local machine). Use [github pages](https://microchip-mplab-harmony.github.io/mbed_os_rtos/) of this repository for viewing it online.                            |
+
+# Harmony 3 MBED OS RTOS
+Harmony 3 Mbed OS RTOS is an RTOS which includes an RTX and all RTOS APIs. It supports deterministic, multithreaded and real-time software execution. The RTOS primitives are always available, allowing drivers and applications to rely on threads, semaphores, mutexes and other RTOS features.
+
+Harmony 3 Mbed OS RTOS example applications are available at [mbed_os_rtos_apps](https://github.com/Microchip-MPLAB-Harmony/mbed_os_rtos_apps)
+
+The following RTOS APIs are supported in Harmony 3 Mbed OS RTOS:
+
+| Mbed OS RTOS API |
+|------------------|
+| [ConditionVariable](https://os.mbed.com/docs/mbed-os/v6.7/apis/rtos-apis.html) |
+| [EventFlags](https://os.mbed.com/docs/mbed-os/v6.7/apis/eventflags.html) |
+| [Idle loop](https://os.mbed.com/docs/mbed-os/v6.7/apis/idle-loop.html) |
+| [Kernel interface functions](https://os.mbed.com/docs/mbed-os/v6.7/apis/kernel-interface-functions.html) |
+| [Mail](https://os.mbed.com/docs/mbed-os/v6.7/apis/mail.html) |
+| [Mutex](https://os.mbed.com/docs/mbed-os/v6.7/apis/mutex.html) |
+| [Queue](https://os.mbed.com/docs/mbed-os/v6.7/apis/queue.html) |
+| [Semaphore](https://os.mbed.com/docs/mbed-os/v6.7/apis/semaphore.html) |
+| [ThisThread](https://os.mbed.com/docs/mbed-os/v6.7/apis/thisthread.html) |
+| [Thread](https://os.mbed.com/docs/mbed-os/v6.7/apis/thread.html) |
+
+Refer the following links for more information:
+ - Mbed OS RTOS API documentation - https://os.mbed.com/docs/mbed-os/v6.7/apis/rtos-apis.html
+ - Mbed OS License information - https://os.mbed.com/docs/mbed-os/v6.7/contributing/license.html
 
 ____
 
