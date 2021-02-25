@@ -51,8 +51,8 @@ The following RTOS APIs are supported in Harmony 3 Mbed OS RTOS:
 | [Thread](https://os.mbed.com/docs/mbed-os/v6.7/apis/thread.html) |
 
 Refer the following links for more information:
- - Mbed OS RTOS API documentation - https://os.mbed.com/docs/mbed-os/v6.7/apis/rtos-apis.html
- - Mbed OS License information - https://os.mbed.com/docs/mbed-os/v6.7/contributing/license.html
+ - [Mbed OS RTOS API documentation](https://os.mbed.com/docs/mbed-os/v6.7/apis/rtos-apis.html)
+ - [Mbed OS License information](https://os.mbed.com/docs/mbed-os/v6.7/contributing/license.html)
 
 ____
 
