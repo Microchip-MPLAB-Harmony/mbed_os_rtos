@@ -2,5 +2,6 @@
 <Package name="mbed_os_rtos">
     <Dependencies>
         <Dependency name="core" version="v3.9.0"/>
+        <Dependency name="mbed-os" version="v6.7.0"/>
     </Dependencies>
 </Package>
